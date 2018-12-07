@@ -26,6 +26,12 @@
 a {
   text-decoration: none;
   color: #4a4a4a;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #32decf;
 }
 
 .main {
@@ -56,6 +62,33 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.blog, .contact {
+  position: relative;
+  padding-bottom: 3px;
+}
+
+// Link de donde he sacado el underline hover de los links: http://tobiasahlin.com/blog/css-trick-animating-link-underlines/
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #32decf;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 @media all and (min-width: 768px) {
