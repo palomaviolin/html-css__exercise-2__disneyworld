@@ -1,8 +1,8 @@
-# html+css+sass - Ejercicio 1
+# html+css+sass - Ejercicio 2
 
 El ejercicio consiste en desarrollar una página web con un diseño básico. Habrá que usar:
 - Sass.
-- Base de gulp con un [web starter kit](https://github.com/Adalab/Adalab-web-starter-kit).
+- Base de gulp con un [web starter kit](https://palomaviolin.github.io/html-css__exercise-2__disneyworld/).
 
 
 ## Diseño
