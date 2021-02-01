@@ -1,27 +1,19 @@
-# Ejercicio de evaluación final ﴾bis﴿ - Sprint 1 (Adalab)
+# html+css+sass - Ejercicio 1
 
->### - [Website link](http://beta.adalab.es/e-s1-evaluacion-final-bis-palomaviolin/).
->###
->### - [Zeplin link](https://app.zeplin.io/project/5b0d2d2536511d0f7e98d719/dashboard).
+El ejercicio consiste en desarrollar una página web con un diseño básico. Habrá que usar:
+- Sass.
+- Base de gulp con un [web starter kit](https://github.com/Adalab/Adalab-web-starter-kit).
 
-El ejercicio consiste en desarrollar una página web de acuerdo a un diseño dado. Habrá que resolver varios puntos:
-
-- Usar Sass.
-- Usar base de gulp del [Adalab web starter kit](https://github.com/Adalab/Adalab-web-starter-kit).
-
-Antes de empezar, tenéis que crear un nuevo repositorio desde GitHub Classroom usando el enlace que se os dado. Una vez creado, lo clonamos en nuestro ordenador y en la carpeta creada empezaremos a trabajar en el ejercicio.
 
 ## Diseño
-*URL del proyecto en zeplin:* http://zpl.io/agnqg9D
->#### Recuerda avisar a tu profesora en persona o por DM en slack para que te de acceso.
-Las imágenes necesarias son:
 
-- [logo de Adalab](https://github.com/Adalab/materiales-front-end-E/blob/master/proyectos/assets/images/logo-adalab.png).
-- [imagen del hero](https://unsplash.com/photos/3LTht2nxd34).
+Las imágenes necesarias son:
+- [Logo](https://lh3.googleusercontent.com/proxy/bkK8CYUFlS-i58_HyB9m-nm2wcjyRzmNX9yRgNinpatzJk734yqo0nc_WjzFVXJ-nWKttPc1907jwJj51A8atrUZ).
+- [Imagen del hero](https://sidisney.com/wp-content/uploads/2020/06/mickey-minnie-cinderella-castle.jpg).
 
 La tipografía es Rubik, accesible en [Google Fonts](https://fonts.google.com/).
 
-![](/docs/assets/images/responsive.png)
+<!-- ![](/docs/assets/images/responsive.png) -->
 
 ## Maquetación
 
@@ -35,8 +27,8 @@ En primer lugar vamos a realizar la maquetación sobre un diseño dado.
 
 En total, tenemos 3 interacciones que resolver:
 
-1. El logo de Adalab enlaza a la web de Adalab ﴾http://adalab.es﴿.
-2. Los enlaces del menú apuntan al blog de Adalab y a la página de contacto de Adalab.
+1. El logo de DisneyWorld enlaza a la web de [DisneyWorld]﴾https://www.disneyworld.eu/﴿.
+2. Los enlaces del menú apuntan al blog de [DisneyParks](https://disneyparks.disney.go.com/blog/) y a la página de contacto de [DisneyWorld](https://www.disneyworld.eu/help/phone/).
 3. En el `hover` de los enlaces de la cabecera ﴾"Blog" y "Contacto"﴿ hay una transición en el color ﴾al azul `#32decf`﴿ y aparece una línea de ese mismo color bajo el texto.
 
 ## General
